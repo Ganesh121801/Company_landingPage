@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Immet Website - Version latest next js used 
+
+Welcome to the Immet Website repository! This project contains the source code for version 13.4 of the Immet Website. The project follows a hierarchical structure to organize its components, assets, providers, JavaScript files, constants, tests, layout, styles, and themes.
+
+## Project Structure
+
+The project structure is as follows:
+
+```
+- src/
+    - app/
+        - [PageName].jsx
+        - [PageName].css
+    - components/
+        - [ComponentName].jsx
+        - [ComponentName].css
+    - assets/
+        - [AssetName].png
+        - [AssetName].svg
+    - providers/
+        - [ProviderName].jsx
+    - javascript/
+        - [JavaScriptFile].js
+    - constants/
+        - [ConstantName].js
+    - tests/
+        - [TestName].test.js
+    - layout/
+        - [LayoutName].jsx
+    - styles/
+        - [StyleName].css
+    - themes/
+        - [ThemeName].css
+```
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Immet Website project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+https://github.com/anukulrajan7/imeetLandigingpage.git
+```
+
+2. Install the dependencies:
+
+```bash
+cd immet-website
+npm install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the Immet Website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you would like to contribute to the development of the Immet Website, please follow the guidelines in the CONTRIBUTING.md file. We welcome contributions from the community!
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+The Immet Website project is licensed under the [MIT License](LICENSE). Please refer to the LICENSE file for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you have any questions or suggestions regarding the Immet Website, please feel free to contact us at [anukulraj2004@gmail.com]
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding!
