@@ -4,7 +4,7 @@ function index({data}) {
   return (
     <div className='flex flex-col gap-4 w-full px-1 py-2 shadow-md  rounded-md shadow-purple-300 '>
        <div className="image w-full">
-        <Image src={data.image} width={300} height={300} className='object-cover'></Image>
+        <Image src={data.image} width={300} height={300} className='object-cover' alt='image-course'></Image>
        </div>
      <div className='flex w-full px-3 flex-col gap-3'>
      <div className='w-fit bg-primary-text text-white text-xl font-normal px-4 py-1 first-letter:capitalize'>{data.Branch}</div>

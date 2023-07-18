@@ -34,10 +34,8 @@ function Hero() {
       </div>
       <div className="left  px-4 py-4 w-[50%]">
         <Image
-          placeholder="blur"
-          priority
-          blurDataURL="data:..."
-          quality={100}
+       
+        
           src={"/images/image 1.png"}
           height={1000}
           width={1000}

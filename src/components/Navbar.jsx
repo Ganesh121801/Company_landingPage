@@ -5,22 +5,22 @@ import Link from "next/link";
 import DropDown from "./dropdown/index";
 import { useRouter } from "next/navigation";
 
-function Navbar() {
+function Navbar({setModalState}) {
   const router = useRouter();
   const [clicked,setClicked] = useState("true");
   return (
-    <header className="flex px-4 py-5 sticky top-0 w-full bg-white shadow-lg shadow-gray-400">
+    <header className="flex px-4 py-5 sticky top-0 w-full bg-white shadow-lg shadow-gray-200 z-40">
       <nav className="w-full lg:w-[80%] mx-auto flex py-2  justify-between items-center ">
-      <div className="logo bg-purple-700 shadow-sm rounded-sm w-fit h-fit px-2 py-1">
+      <div className="log shadow-sm rounded-sm w-fit h-fit px-2 py-1">
         <Image
-          src={"/images/imeet - white 1.png"}
+          src={"/images/imeet.png"}
           width={100}
           height={100}
           alt="imeet logo"
         />
       </div>
     
-        <ul className="flex gap-6 ">
+        <ul className="flex gap-6 items-center ">
           <li>
             <Link href={"/"} className="visited:text-primary-text text-2xl font-normal text-text-secondary">Home</Link>
           </li>
@@ -33,8 +33,8 @@ function Navbar() {
           <li>
              <DropDown children={"Insights"}/>
           </li>
+    <button onClick={()=>{setModalState(set=>!set)}} className="bg-primary-text text-white text-xl capitalize font-normal w-fit px-8 py-2 shadow-sm rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl rounded-br-2xl"> login</button>       
         </ul>
-    <button onClick={()=>{router.push("/login")}}  className="bg-primary-text text-white text-xl capitalize font-normal w-fit px-5 py-2 shadow-sm rounded-md"> login</button>       
       </nav>
 
     </header>

@@ -8,18 +8,18 @@ function index() {
             <div className="certification flex flex-col gap-10 justify-center items-center">
             <div className=" text-center text-neutral-700 text-[31px] font-bold">Official Certification Partners</div>
                 <div className="img flex gap-4">
-                    <Image src={"/images/image 10.png"} width={100} height={100}></Image>
-                    <Image src={"/images/image 11.png"} width={100} height={100}></Image>
-                    <Image src={"/images/image 12.png"} width={100} height={100}></Image>
+                    <Image src={"/images/image 10.png"} width={100} height={100} alt='images'></Image>
+                    <Image src={"/images/image 11.png"} width={100} height={100} alt='images'></Image>
+                    <Image src={"/images/image 12.png"} width={100} height={100} alt='images'></Image>
                 </div>
             </div>
                   <div className='w-[1px] bg-gray-600 h-[300px]'> </div>
             <div className="startup flex flex-col justify-center items-end gap-10">
             <div className=" text-center text-neutral-700 text-[31px] font-bold">Our Startups and Corporate Network</div>
             <div className="img flex gap-4 items-center">
-                    <Image src={"/images/image 13.png"} width={130} height={100}></Image>
-                    <Image src={"/images/image 14.png"} width={130} height={100}></Image>
-                    <Image src={"/images/image 15.png"} width={130} height={100}></Image>
+                    <Image src={"/images/image 13.png"} width={130} height={100} alt='images'></Image>
+                    <Image src={"/images/image 14.png"} width={130} height={100} alt='images'></Image>
+                    <Image src={"/images/image 15.png"} width={130} height={100} alt='images'></Image>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@ function index() {
                 </div>
                 </div>
                 <div className="image w-[400px] absolute bottom-0 right-0">
-                <Image src={"/images/image 17.png"} width={1000} height={200} className='object-cover'></Image>
+                <Image src={"/images/image 17.png"} width={1000} height={200} className='object-cover' alt='image'></Image>
 
                 </div>
              </div>

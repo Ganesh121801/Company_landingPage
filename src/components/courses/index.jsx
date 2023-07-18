@@ -13,9 +13,9 @@ function index() {
          <h1 className='font-normal text-4xl font-serif text-text-secondary'>Trending Courses</h1>
          <h2 className='text-xl font-normal'>Choose from 100+ courses with new additions published every month</h2>
       </div>
-      <div className='flex gap-5 w-full lg:w-[80%] mx-auto px-4 py-10 items-center '>
+      <div className='flex gap-10 w-full  min-h-screen  mx-auto px-20 items-start py-10  justify-center '>
         <Filter filterBranch={filterBranch} setFilter={setFilter} dummyData={dummyData}/>
-        <div className='w-[70%] grid grid-cols-3 gap-4'>
+        <div className=' grid grid-cols-3 gap-8 px-5 min-h-screen overflow-y-auto'>
             {dummyData.map(
                 (dummyData,i)=>{
                   if( filterData==dummyData.Branch){

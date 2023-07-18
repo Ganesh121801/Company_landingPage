@@ -7,7 +7,7 @@ function index({data}) {
          <h2 className='text-right  text-[18px] font-bold text-text-secondary capitalize'>{data.Branch}</h2>
           <h2 className='text-xl text-primary-text font-bold capitalize'>{data.course}</h2>
           <div className='w-full '>
-            <Image src={data.image} width={310} height={200} className='object-cover'/>
+            <Image src={data.image} width={310} height={200} className='object-cover' alt='data'/>
           </div>
           <p className='text-text-secondary text-[14px] font-semibold px-2 py-3'>
             {data.text}
